@@ -18,7 +18,7 @@ const Home_page = () => {
     return (
         <div className="md:flex w-full xs:flex-none">
             {/* right side */}
-            <div className="w-[50%] ml-40 lg:pr-12 xl:ml-40 xl:pr-12 lg:ml-20 md:ml-12 md:pr-12 sm:ml-12 xs:ml-12">
+            <div className="w-[50%] ml-40 lg:pr-12 xl:ml-40 xl:pr-12 lg:ml-20 md:ml-12 md:pr-12 sm:ml-12 sm:pr-8 xs:ml-12">
                 {/* navbar */}
                 <div className='flex pt-14 justify-between'>
                     {/* swiggy logo */}
@@ -85,9 +85,9 @@ const Home_page = () => {
                 </div>
 
                 {/* different cities */}
-                <div className='lg:my-8 md:my-6 xs:my-6'>
+                <div className='lg:my-8 md:my-6 xs:my-6 md:text-base xs:text-sm'>
                     <h3 className='text-gray-400 font-semibold'>POPULAR CITIES IN INDIA</h3>
-                    <div className='lg:my-2 gap-2 flex flex-wrap cursor-pointer md:my-1'>
+                    <div className='lg:my-2 gap-2 flex flex-wrap cursor-pointer md:my-1 xs:my-2'>
                         <a href='#ahmedabad' className='text-gray-500 font-semibold'>Ahmedabad</a>
                         <a href='#banglore' className='text-gray-400 font-semibold'>Bangalore</a>
                         <a href='#chennai' className='text-gray-500 font-semibold'>Chennai</a>
