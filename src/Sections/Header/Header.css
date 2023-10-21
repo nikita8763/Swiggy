@@ -1,0 +1,91 @@
+.headerContainer{
+    display: flex;
+    height: 5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.swiggy_logo{
+    width: 13%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.7rem 0rem 1rem 0rem;
+    cursor: pointer;
+}
+
+.swiggyImage{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.swiggyImage:hover{
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+.locationContainer{
+    width: 20%;
+    column-gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.patiaDiv{
+    border-bottom: 2px solid black;
+    font-weight: 600;
+}
+
+.bbsrDiv{
+    color: var(--gray);
+}
+
+.downArrow{
+    color: var(--orange);
+}
+
+.locationContainer:hover{
+    .patiaDiv{
+        color: var(--orange);
+        border-bottom: 2px solid var(--orange);
+    }
+    .bbsrDiv{
+        color: rgb(171, 167, 167);
+    }
+}
+
+.rightNavContainer{
+    font-weight: 600;
+    color: rgb(71, 70, 70);
+    column-gap:3.5rem ;
+    width: 67%;
+    justify-content: flex-end;
+    padding-left: 5rem;
+    cursor: pointer;
+}
+
+.rightDiv{
+    column-gap: 0.8rem;
+}
+
+.rightDiv:hover{
+    color: var(--orange);
+}
+
+img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.offerImage{
+    margin-right: 0.8rem;
+}
+
+.newDiv{
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgb(247, 169, 2);
+    margin-bottom: 1rem;
+    margin-left: 0.1rem;
+}
+
+.offerConatiner:hover{
+    color: var(--orange);
+}

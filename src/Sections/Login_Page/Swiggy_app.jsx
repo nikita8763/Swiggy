@@ -1,7 +1,7 @@
-import ios_app from '../../assests/iOS_app.webp'
-import play_app from '../../assests/play_app.webp'
-import pixel_app from '../../assests/pixel_app.webp'
-import iPhone_app from '../../assests/iPhone_app.webp'
+import ios_app from '../../assests/login_page/iOS_app.webp'
+import play_app from '../../assests/login_page/play_app.webp'
+import pixel_app from '../../assests/login_page/pixel_app.webp'
+import iPhone_app from '../../assests/login_page/iPhone_app.webp'
 
 const Swiggy_app = () => {
     return (

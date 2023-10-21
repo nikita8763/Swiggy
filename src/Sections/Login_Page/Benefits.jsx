@@ -1,6 +1,6 @@
-import No_min_order from '../../assests/No_min_order.webp'
-import Live_order from '../../assests/Live_order.webp'
-import super_fast_delivery from '../../assests/Super_fast_delivery.webp'
+import No_min_order from '../../assests/login_page/No_min_order.webp'
+import Live_order from '../../assests/login_page/Live_order.webp'
+import super_fast_delivery from '../../assests/login_page/Super_fast_delivery.webp'
 
 const Benifits = () => {
     return (

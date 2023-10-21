@@ -1,9 +1,10 @@
-import lunch1 from '../../assests/Lunch1.webp'
-import logo from '../../assests/logo.png'
+import lunch1 from '../../assests/login_page/Lunch1.webp'
+import logo from '../../assests/login_page/logo.png'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClose } from '@fortawesome/free-solid-svg-icons'
-import Image_login from '../../assests/Image-login.webp'
+import Image_login from '../../assests/login_page/Image-login.webp'
 import CurrentLocation from './CurrentLocation'
 import { faCrosshairs } from '@fortawesome/free-solid-svg-icons'
 
@@ -14,6 +15,11 @@ const onError = (type, status) => console.log(type, status)
 const Home_page = () => {
     const [login, setlogin] = useState(false)
     const [sign, setsign] = useState(false)
+
+    const navigate = useNavigate();
+    const navigateMainPage = () => {
+        navigate('/main_page');
+    };
 
     return (
         <div className="md:flex w-full xs:flex-none">
@@ -36,7 +42,7 @@ const Home_page = () => {
                                 <div className="text-3xl mt-16 font-semibold flex">Login<img className='w-24 -mt-5 right-24 absolute' src={Image_login} /></div>
                                 <div onClick={() => setsign(!sign)} className='text-xs mt-3 pb-4 '>or <span className='text-orange-500 font-semibold cursor-pointer'>create an account</span></div>
                                 <input className='border mt-5 py-5 pl-6 w-[82%] outline-none' type='text' placeholder='Phone number' />
-                                <button className='mt-5 border py-3 pl-6 w-[82%] text-white bg-orange-500 font-semibold'>LOGIN</button>
+                                <button className='mt-5 border py-3 pl-6 w-[82%] text-white bg-orange-500 font-semibold' onClick={navigateMainPage}>LOGIN</button>
                                 <div className='text-xs mt-1'>By clicking on Login, I accept the <span className='font-semibold cursor-pointer'>Terms & Conditions & Privacy Policy</span></div>
                             </ul>
                         </nav>
@@ -53,7 +59,7 @@ const Home_page = () => {
                                 <input className='border py-5 pl-6 w-[82%] outline-none' type='text' placeholder='Name' />
                                 <input className='border py-5 pl-6 w-[82%] outline-none' type='text' placeholder='Email' />
                                 <div className='mt-7 font-semibold text-base text-blue-400'>Have a referal code?</div>
-                                <button className='mt-5 border py-3 pl-6 w-[82%] text-white bg-orange-500 font-semibold'>CONTINUE</button>
+                                <button className='mt-5 border py-3 pl-6 w-[82%] text-white bg-orange-500 font-semibold' onClick={navigateMainPage}>CONTINUE</button>
                                 <div className='text-xs mt-1'>By clicking on Login, I accept the <span className='font-semibold cursor-pointer'>Terms & Conditions & Privacy Policy</span></div>
                             </ul>
                         </nav>

@@ -8,3 +8,14 @@
     @apply border border-black rounded-xl px-5 py-1
   }
 } */
+
+:root{
+  --orange: #ff8c00;
+  --gray:#858383;
+}
+
+.navContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
