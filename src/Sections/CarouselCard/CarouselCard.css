@@ -1,0 +1,10 @@
+.carouselContainer{
+    margin: 6.5rem 13rem 0rem 13rem;
+    height: 18rem;
+    /* border: 2px solid red; */
+}
+
+.bestOffersDiv{
+    font-size: 1.5rem;
+    font-weight: 700;
+}

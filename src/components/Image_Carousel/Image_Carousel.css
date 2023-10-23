@@ -1,0 +1,22 @@
+.carsouelImage{
+    width: 22rem;
+    height: 14rem;
+    cursor: pointer;
+}
+
+.customArrow{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+/* .customArrow{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+} */

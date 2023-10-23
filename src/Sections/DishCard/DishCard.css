@@ -1,0 +1,11 @@
+.dishContainer{
+    margin-left: 13rem;
+    margin-right: 13rem;
+    margin: 1.8rem 13rem 0rem 13rem;
+    height: 18rem;
+}
+
+.dishDiv{
+    font-size: 1.5rem;
+    font-weight: 700;
+}

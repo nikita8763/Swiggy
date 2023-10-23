@@ -1,0 +1,11 @@
+.customArrow{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.DishImage{
+    width: 9rem;
+    height: 12rem;
+    cursor: pointer;
+}
