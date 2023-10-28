@@ -1,0 +1,28 @@
+.restaurantDescription{
+    margin-left: 1rem;
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+.ratingButton{
+    margin-top: 1.5rem;
+    font-weight: 300;
+    border: 2px solid var(--lightgray);
+    border-radius: 0.9rem;
+    padding: 0.2rem 0.8rem 0.3rem 0.9rem;
+}
+
+.ratingButton:hover{
+    border: 2px solid var(--orange);
+}
+
+.FoodDeliveryContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* margin-top: 2rem; */
+    column-gap: 1.5rem;
+}
+
+.restaurantCardContainer{
+    margin-top: 2rem;
+}

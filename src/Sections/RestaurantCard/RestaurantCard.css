@@ -1,0 +1,10 @@
+.restaurantContainer{
+    margin: 2.5rem 13rem 0rem 13rem;
+    border-bottom: 2px solid var(--lightgray);
+    padding-bottom: 4rem;
+}
+
+.restaurantChains{
+    font-size: 1.5rem;
+    font-weight: 700;
+}

@@ -1,8 +1,10 @@
 .dishContainer{
-    margin-left: 13rem;
-    margin-right: 13rem;
+    /* margin-left: 13rem;
+    margin-right: 13rem; */
     margin: 1.8rem 13rem 0rem 13rem;
     height: 18rem;
+    border-bottom: 2px solid var(--lightgray);
+    padding-bottom: 21rem;
 }
 
 .dishDiv{

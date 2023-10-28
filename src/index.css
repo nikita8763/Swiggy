@@ -12,10 +12,60 @@
 :root{
   --orange: #ff8c00;
   --gray:#858383;
+  --lightgray:#f5ebeb;
 }
 
 .navContainer{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.restaurantImages{
+  width: 16rem;
+  height: 14rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.restaurantDiscount{
+  position: absolute;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 11.5rem 0rem 0rem 1rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+}
+
+.restaurantName{
+  margin: 1rem 0rem 0rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.ratingTimeDiv{
+  display: flex;
+  margin-left:1rem;
+  gap: 0.3rem;
+  font-weight: 600;
+}
+
+.ratingIcon{
+  color: rgb(244, 245, 247);
+  font-size: 0.7rem;
+  background: rgb(6, 161, 6);
+  padding: 0.2rem;
+  border-radius: 1rem;
+  margin-top: 0.2rem;
+}
+
+.restaurantLocation{
+  margin-left: 1rem;
+  font-weight: 100;
+}
+
+.restaurantCardContainer:hover{
+  cursor: pointer;
+  transform: scale(0.95);
+  transition-duration: 300ms;
 }
